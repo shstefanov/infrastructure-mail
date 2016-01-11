@@ -1,6 +1,6 @@
 {
   "name": "infrastructure-mail",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "engine.js",
   "scripts": {
