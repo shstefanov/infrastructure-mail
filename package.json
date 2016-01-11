@@ -2,9 +2,9 @@
   "name": "infrastructure-mail",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "engine.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/mocha/bin/mocha --recursive --colors --sort --check-leaks --full-trace --no-exit --throw-deprecation test"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/shstefanov/infrastructure-mail/issues"
   },
-  "homepage": "https://github.com/shstefanov/infrastructure-mail#readme"
+  "homepage": "https://github.com/shstefanov/infrastructure-mail#readme",
+  "dependencies": {
+    "infrastructure": "^1.1.0",
+    "mustache": "^2.2.1",
+    "nodemailer": "^1.11.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
 }
